@@ -1,0 +1,318 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:id="@+id/tyableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >      
+
+        <RadioGroup
+            android:id="@+id/tyradioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/tyradio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="四人游戏" />
+            <RadioButton
+                android:id="@+id/lzradio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="三人游戏" />             
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tytableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tytextViewda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打多大："
+            android:textSize="35px" />
+
+        <EditText
+            android:id="@+id/tyeidtTextprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tytextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="元/胡"
+            android:textSize="35px" />
+    </TableRow>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/lztextViewWj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="玩家"
+                android:textSize="35px" />
+
+            <TextView
+                android:id="@+id/textViewJia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="甲"
+                android:textSize="35px" />
+
+            <TextView
+                android:id="@+id/textViewYi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="乙"
+                android:textSize="35px" />
+
+            <TextView
+                android:id="@+id/textViewBin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="丙"
+                android:textSize="35px" />
+
+            <TextView
+                android:id="@+id/textViewDin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="丁"
+                android:textSize="35px" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/lztxthuoniao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:text="活鸟"
+                android:textSize="35px" />
+
+            <EditText
+                android:id="@+id/edthnJia"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:ems="2" />
+
+            <EditText
+                android:id="@+id/edthnYi"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:ems="2" />
+
+            <EditText
+                android:id="@+id/edthnBin"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:ems="2" />
+
+            <EditText
+                android:id="@+id/edthnDing"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:ems="2" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txttuoBird"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:text="拖鸟"
+                android:textSize="35px" />
+
+            <EditText
+                android:id="@+id/edttnJia"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:ems="2" />
+
+            <EditText
+                android:id="@+id/edttnYi"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:ems="2" />
+
+            <EditText
+                android:id="@+id/edttnBin"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:ems="2" />
+
+            <EditText
+                android:id="@+id/edttnDing"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:ems="2" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtHuxi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:text="胡息"
+                android:textSize="35px" />
+
+            <EditText
+                android:id="@+id/edthxJia"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:ems="2" />
+
+            <EditText
+                android:id="@+id/edthxYi"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:ems="2" />
+
+            <EditText
+                android:id="@+id/edthxBin"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:ems="2" />
+
+            <EditText
+                android:id="@+id/edthxDing"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:ems="2" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txtjieGuo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:text="结果"
+                android:textSize="35px" />
+
+            <TextView
+                android:id="@+id/TextViewJGJia"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="0"
+                android:textSize="35px" />
+
+            <TextView
+                android:id="@+id/TextViewJGYi"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="0"
+                android:textSize="35px" />
+
+            <TextView
+                android:id="@+id/TextViewJGBin"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="0"
+                android:textSize="35px" />
+
+            <TextView
+                android:id="@+id/TextViewJGDing"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="0"
+                android:textSize="35px" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonJiSuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="计算" />
+
+            <Button
+                android:id="@+id/buttonclean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="清除" />
+
+            <Button
+                android:id="@+id/buttonexit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="退出" />
+        </TableRow>
+    </TableLayout>
+
+</TableLayout>
